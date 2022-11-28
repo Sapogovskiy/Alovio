@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Lato' sans-serif;
+  color: #424242;
+  font-size: 20px;
 }
 
 .container {
@@ -11,3 +13,15 @@ body {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: #292929;
+}
+
+@import './block/nav';
+@import './buttons';
+@import './block/header';
+@import './title';
+@import './block/step';
+@import './block/animation';
+@import './block/video';

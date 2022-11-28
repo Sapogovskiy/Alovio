@@ -1,0 +1,69 @@
+.step {
+  &__name {
+    margin-top: 130px;
+    margin-bottom: 35px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+  }
+
+  &__description {
+    width: 45%;
+    line-height: 150%;
+  }
+
+  &__cards {
+    display: flex;
+  }
+
+  &__card {
+    width: 30%;
+    margin-right: 57px;
+
+    &_item {
+      display: flex;
+      margin-bottom: 55px;
+      position: relative;
+    }
+    &_number {
+      color: rgba(1, 153, 109, 0.2);
+      font-size: 150px;
+      transition: 0.7s;
+      &:hover {
+        color: #245852;
+      }
+    }
+    &_name {
+      display: flex;
+      margin-top: 97px;
+      margin-left: 80px;
+      position: absolute;
+      color: #000000;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    &_description {
+      line-height: 150%;
+      margin-bottom: 60px;
+    }
+
+    &_img:hover {
+        animation-name: name;
+        animation-duration: 1s;
+    }
+
+  }
+  &__card:nth-child(2) {
+    margin-top: 250px;
+    padding-bottom: 51px;
+  }
+  &__card:last-child {
+    margin-top: 105px;
+    margin-right: 0;
+  }
+}

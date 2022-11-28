@@ -1,0 +1,36 @@
+.nav {
+  &__logo {
+      animation-name: logo;
+      animation-duration: 10s;
+  }
+  &__bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 85px;
+  }
+
+  &__main {
+
+    a {
+      margin-left: 70px;
+      &:hover {
+        color: #245852;
+        border-bottom: 1px solid #245852;
+      }
+    }
+    a:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &__buttons {
+    &_link {
+      margin-right: 30px;
+      &:hover {
+        color: #245852;
+        border-bottom: 1px solid #245852;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.video {
+  background-color: #245852;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text {
+    margin-top: 310px;
+    margin-bottom: 380px;
+
+    &_description {
+      font-size: 25px;
+      color: #FFFFFF;
+      margin-bottom: 57px;
+
+    }
+  }
+  &__content {
+  }
+}
